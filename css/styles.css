@@ -1,0 +1,115 @@
+img,embed, object,video {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+header{
+	text-align: center;
+}
+
+body {
+	color:#b4db08;
+	font-family: 'Bungee', cursive;
+	background:#020d1e;
+	position: relative;
+	margin-left: 24px;
+	margin-right: 24px;
+	height: 100%;
+	width: 100%;
+}
+
+.user-input{
+	margin: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.user-input > div{
+	margin: 8px;
+}
+
+input{
+	background: #6a71b5;
+	border-radius: 5px;
+	border-color: #b4db08;
+	border-width: 3px;
+	font-family: 'Bungee', cursive;
+	text-align: center;
+}
+
+button, checkbox{
+	color: '020d1e';
+	background: #b4db08;
+	border-radius: 5px;
+	border-color: #b4db08;
+	border-width: 3px;
+	font-family: 'Bungee', cursive;
+}
+
+button{
+	cursor: pointer;
+}
+
+
+footer {
+     padding: 4px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     position: fixed;
+     width: 100%;
+     font-weight: 400;
+     color: #020d1e;
+     background: #b4db08;
+     font-family:'Homenaje',sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+.download-button {
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 48px;
+}
+
+.the-grid {
+	margin: 24px auto;
+	width: 500px;
+	height: 500px;
+	display: grid;
+	background: #ffffff;
+}
+
+.the-grid-box{
+	border: 0.5px solid black;
+}
+
+.fa-github {
+     margin: 2px;
+     color: #020d1e;
+}
+
+ .fa-github:hover, .fa-github:active, .fa-github:focus {
+     color: #6a71b5;
+}
+
+.icon {
+	 aria-hidden: "true";
+}
+
+.mailto {
+     color: #020d1e;
+     font-family:Economica, sans-serif;
+     font-weight: bold;
+     float: right;
+     margin: 0;
+     margin-right: 8px;
+     text-decoration: none;
+}
+
+.submit:hover, .aspect-ratio:hover, .mailto:hover, .mailto:active, .mailto:focus {
+     color: #6a71b5;
+}
